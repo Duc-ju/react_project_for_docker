@@ -11,7 +11,7 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
-  app: "DemoCIElasticBeanstalk"
+  app: "Demo CI Elastic Beanstalk"
   env: "DemoCIElasticBeanstalk-env"
   bucket_name: "elasticbeanstalk-us-east-1-198494521496"
   bucket_path: "DemoCIElasticBeanstalk"
